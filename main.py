@@ -33,7 +33,7 @@ print("Максимальная сумма, которую вы можете з�
 ############################################################################################################
 # 3 решение(lambda)
 
-deposit_lambda = list(map(lambda deposit_percent: round(deposit_percent*money/100), per_cent.values()))
+deposit_lambda = list(map(lambda deposit_percent: round(deposit_percent * money / 100), per_cent.values()))
 
 print('Накопленные средства -', deposit_lambda)  
 
