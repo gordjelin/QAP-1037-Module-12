@@ -9,7 +9,7 @@ deposit = []                                                      # создае
 
 deposit.append(int(per_cent.get("ТКБ") * money / 100))          # сохраняем информацию с накопленными
 deposit.append(int(per_cent.get("СКБ") * money / 100))          # средствами по банку,
-deposit.append(int(per_cent.get("ВТБ") * money / 100))          # с округлением до целых чисел
+deposit.append(int(per_cent.get("ВТБ") * money / 100))          # с приведением к целому числу, как указано в примере-условии
 deposit.append(int(per_cent.get("СБЕР") * money / 100))         #
 
 print("Накопленные средства -", deposit)
